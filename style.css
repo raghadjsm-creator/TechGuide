@@ -1,0 +1,19 @@
+/* General page style */
+body { font-family: Arial, sans-serif; background-color: #f0f5f8; color: #24364b; margin: 0; }
+header { background-color: #173b57; color: white; padding: 24px; text-align: center; }
+header h1 { margin: 0; font-size: 34px; }
+nav { background-color: #245b78; padding: 16px; text-align: center; }
+nav a { color: white; text-decoration: none; padding: 10px 22px; }
+nav a:hover, nav a.active { background-color: #173b57; }
+/* Main content and headings */
+main { max-width: 900px; margin: 30px auto; padding: 25px; background-color: white; border: 1px solid #d5e0e8; }
+h2 { color: #245b78; } p, li { line-height: 1.6; }
+.topic { background-color: #eaf4f8; padding: 15px; margin: 15px 0; border-left: 4px solid #245b78; }
+/* Table formatting */
+table { width: 100%; border-collapse: collapse; }
+th, td { border: 1px solid #b9cbd7; padding: 12px; text-align: left; }
+th { background-color: #245b78; color: white; }
+footer { text-align: center; padding: 18px; background-color: #173b57; color: white; }
+
+/* Image formatting */
+.page-image { width: 100%; height: auto; margin: 10px 0; }
